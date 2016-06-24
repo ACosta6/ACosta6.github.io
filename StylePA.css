@@ -1,33 +1,102 @@
 @font-face {
-    font-family: bebasneue book;
-    src: url(bebasneue book.otf);
+    font-family: bebasneuebook;
+    src: url(fonts/BebasNeueBook.otf);
 }
 
 body{
     margin: 0px;
-    
+
+
+
+}
+header {
+    font-family: "bebasneuebook", 35px;
+
 }
 
-section.content {
+section {
     float: right;
+    width: 70%;
     background-color: #601541;
-    padding: 30px;
-    margin-left: 300px;
-}
-#logo, nav, footer {
-    margin: 0px; 
-    width: 300px;
-    float: left;
-    
-   
-}
-nav, footer {
-    margin: 0px; 
-    width: 300px;
-    clear: left;
+    padding-right: 30px;
+    padding-top: 30px;
+    height: 100%
 
-nav {
-    font-family: bebas neue 35px;
-    
 }
+
+img {
+
+    max-height: 250px;
+}
+nav  {
+    position: fixed;
+    bottom: 450px;
+    line-height: 4;
+    font-family: "bebasneuebook";
+    margin-left: 50px;
+    font-size: 25px;
+    text-align: right;
+    text-decoration-line: none;
+
+}
+
+
+
+    a {
+        text-decoration: none;
+
+    }
+
+    nav > ul {
+        list-style: none;
+        text-decoration-line: none;
+        color: #707072;
+
+    }
+    .backgroundhead{
+        float: left;
+    }
+    .preview_image1{
+        float: right;
+        padding: 10px
+    }
+
+    section.content > .preview_image2{
+        float: right;
+        padding: 10px
+    }
+
+    section.content > .preview_image3{
+        float: right;
+        padding: 10px
+    }
+
+    #logo {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+
+    #logo > img {
+        margin: 0px; 
+        font-family: bebasneue book 35px;
+        width:30%;
+        top: 0px;
+        left: 0px;
+    }
+
+
+    footer {
+        margin: 0px;
+        position:fixed;
+        bottom: 20px;
+        list-style: none;
+        font-size: 22px;
+        margin-left: 18px;
+        color: #601541;
+    }
+
+    i {
+        color: #601541;
+    }
 
