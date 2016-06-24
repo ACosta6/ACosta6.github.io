@@ -1,0 +1,33 @@
+@font-face {
+    font-family: bebasneue book;
+    src: url(bebasneue book.otf);
+}
+
+body{
+    margin: 0px;
+    
+}
+
+section.content {
+    float: right;
+    background-color: #601541;
+    padding: 30px;
+    margin-left: 300px;
+}
+#logo, nav, footer {
+    margin: 0px; 
+    width: 300px;
+    float: left;
+    
+   
+}
+nav, footer {
+    margin: 0px; 
+    width: 300px;
+    clear: left;
+
+nav {
+    font-family: bebas neue 35px;
+    
+}
+
